@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Basketball Scoreboard</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 class="score" id="home">0</h2>
+                <div>
+                    <button onclick="increaseHomeScoreBy1()">+1</button>
+                    <button onclick="increaseHomeScoreBy2()">+2</button>
+                    <button onclick="increaseHomeScoreBy3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>AWAY</h3>
+                <h2 class="score" id="guest">0</h2>
+                <div>
+                    <button onclick="increaseGuestScoreBy1()">+1</button>
+                    <button onclick="increaseGuestScoreBy2()">+2</button>
+                    <button onclick="increaseGuestScoreBy3()">+3</button>
+                </div>
+            </div>   
+        </div>
+        <br />
+        <button onclick="newGame()">New Game</button>
+        <script src="index.js"></script>
+    </body>
+</html>
